@@ -2,7 +2,7 @@ FROM golang:alpine
 MAINTAINER Joel Chen <joelchen@msn.com>
 WORKDIR /tmp
 
-ENV LIBVIPS_VERSION=8.5.6
+ENV LIBVIPS_VERSION=8.5.7
 
 RUN apk update && \
     apk upgrade && \
